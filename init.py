@@ -16,7 +16,7 @@ with io.open("scrapyd.conf", 'r+', encoding='utf-8') as f:
     f.write(u'\nhttp_port = %s\n' % PORT)
     if NODE_NAME != 'unset':
         f.write(u'\nnode_name = %s\n' % NODE_NAME)
-    if ENABLE_AUTH != 'True':
+    if ENABLE_AUTH == 'True':
         if USERNAME and PASSWORD:
             f.write(u'\nusername = %s\n' % USERNAME)
             f.write(u'\npassword = %s\n' % PASSWORD)
