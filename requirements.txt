@@ -1,0 +1,6 @@
+pip>=19.0.3
+Twisted
+scrapy==1.5.1
+git+git://github.com/my8100/scrapyd.git@add_basic_auth
+scrapy-redis
+logparser==0.8.1
