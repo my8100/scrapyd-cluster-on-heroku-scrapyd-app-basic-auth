@@ -1,5 +1,5 @@
 pip>=19.1.1
-Twisted
+#Twisted>=18.9.0
 scrapy==1.5.1
 git+git://github.com/my8100/scrapyd.git@add_basic_auth
 scrapy-redis
